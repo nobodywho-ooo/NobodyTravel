@@ -10,7 +10,7 @@
   <img src="screenshots/city-selection.png" width="38%" alt="NobodyTravel city selection screen in an iPhone frame">
 </p>
 
-An offline iOS city guide that uses [NobodyWho](https://www.nobodywho.ai) to an LLM powered travel agent on your phone, using travel data from [Wikivoyage](https://en.wikivoyage.org).
+An offline iOS city guide that uses [NobodyWho](https://github.com/nobodywho-ooo/nobodywho) to an LLM powered travel agent on your phone, using travel data from [Wikivoyage](https://en.wikivoyage.org).
 
 - [`python/`](python): Data pipeline for city guide bundles
 - [`xcode/`](xcode): SwiftUI app
