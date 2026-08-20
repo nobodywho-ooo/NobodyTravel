@@ -1,0 +1,8 @@
+*.DS_Store
+**/.pytest_cache/
+**/.ruff_cache/
+**/__pycache__/
+python/data/
+xcode/.build/
+**/xcuserdata/
+/xcode/design-poc

@@ -1,0 +1,32 @@
+[project]
+name = "nobodytravel"
+version = "0.1.0"
+description = "Build offline Wikivoyage city guides."
+readme = "README.md"
+authors = [
+    { name = "duarteocarmo", email = "me@duarteocarmo.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "fire>=0.7.1",
+    "httpx>=0.28.1",
+    "markitdown>=0.1.7",
+    "pillow>=12.3.0",
+    "tenacity>=9.1.4",
+    "tqdm>=4.70.0",
+]
+
+[project.scripts]
+nobodytravel = "nobodytravel.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "deptry>=0.25.1",
+    "ruff>=0.16.3",
+    "ty>=0.0.73",
+]
